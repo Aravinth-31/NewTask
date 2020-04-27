@@ -26,11 +26,6 @@ li{
 #check{
 	display:none;
 }
-@media(max-width: 1000px){
-	.card-body{
-		display: none;
-	}
-}
 div.img-square-wrapper img{
 	height:200px;
 	width:170px;
@@ -153,4 +148,51 @@ div.col-3 h6{
 .fixedwidth{
 	height: 217px;
 	width: 513px;
+}
+button.btn-primary{
+	display: flex;
+	position: absolute;
+	padding: 5px;
+	left: 78%;
+}
+.modal{
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.modal__contents{
+	background-color: #fff;
+	padding: 2rem 4rem;
+}
+input{
+	width: 100%;
+	padding : 8px;
+	border-spacing: 10px;
+}
+div form button{
+	width: 100%;
+	padding: 8px;
+	background-color: blue;
+	border : none;
+	color: white;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+div form button:hover{
+	background-color: darkblue;
+}
+.modal__close-bar{
+	margin-right: -2rem;
+	margin-top: -1rem;
+	cursor: pointer;
+	width: 10px;
+	float: right;
+}
+.--hidden{
+	display: none;
 }
