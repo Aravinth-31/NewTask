@@ -1,3 +1,8 @@
+@media(max-width: 1000px){
+	.card-body{
+		display: none;
+	}
+}
 @media(max-width: 750px){
 	.checkbtn{
 		display: block;
